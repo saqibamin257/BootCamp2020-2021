@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Project 01-Deploy Hello World
 
 on: [push]
 
@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./Project01-HelloWorld http://bootcamp2020_saqibamin_helloworld.surge.sh --token ${{ secrets.SURGE_TOKEN}}
+        run: surge ./Project01-HelloWorld http://bootcamp2020_saqibamin_01_helloworld.surge.sh --token ${{ secrets.SURGE_TOKEN}}
