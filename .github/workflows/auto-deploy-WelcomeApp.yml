@@ -1,4 +1,4 @@
-name: Deploy Welcome App
+name: Project 02-Deploy Welcome App
 
 on: [push]
 
