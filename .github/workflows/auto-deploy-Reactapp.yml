@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./project03-react-app/build http://bootcamp2020_saqibamin_02_Welcome.surge.sh --token ${{ secrets.SURGE_TOKEN}}
+        run: surge ./project03-react-app/build http://bootcamp2020_saqibamin_03_ReactApp.surge.sh --token ${{ secrets.SURGE_TOKEN}}
